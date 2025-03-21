@@ -1,4 +1,4 @@
-🧬 BEAGLE to VCF Converter (convert_bgl_to_vcf.py)
+🧬 BEAGLE to VCF Converter (bgl2vcf.py)
 
 This Python script converts phased BEAGLE v3.1 genotype files (.bgl) to the standardized VCF (Variant Call Format), using variant annotations from a corresponding PLINK .bim file.
 
@@ -15,11 +15,11 @@ Any SNPs not found in the .bim file or with inconsistent allele encoding will be
 
 Usage 
 
-python convert_bgl_to_vcf.py <input.bgl> <input.bim> <output.vcf>
+python bgl2vcf.py <input.bgl> <input.bim> <output.vcf>
 
 Example
 
-python convert_bgl_to_vcf.py example.bgl example.bim output.vcf
+python bgl2vcf.py example.bgl example.bim output.vcf
 
 🔧 Requirements
 
